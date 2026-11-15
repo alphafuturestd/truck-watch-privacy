@@ -1,144 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Privacy Policy for Motion Monitor Beta by Alpha Future Studio.">
-  <title>Privacy Policy — Motion Monitor Beta | Alpha Future Studio</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Trako Privacy Policy · Політика конфіденційності Trako</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f5f7fb;
-      --panel: #ffffff;
-      --text: #192435;
-      --muted: #5b6878;
-      --line: #e4e8ef;
-      --accent: #2458a7;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    .wrap { max-width: 850px; margin: 0 auto; padding: 46px 20px 66px; }
-    header { margin: 0 0 26px; }
-    .brand { font-size: .88rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
-    h1 { margin: 10px 0 9px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.18; letter-spacing: -.03em; }
-    .subtitle { margin: 0; color: var(--muted); }
-    main { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: clamp(22px, 5vw, 48px); box-shadow: 0 12px 42px rgba(15, 29, 48, .045); }
-    .meta { background: var(--bg); padding: 14px 18px; border-radius: 10px; margin: 0 0 28px; color: var(--muted); font-size: .95rem; }
-    .meta strong { color: var(--text); }
-    h2 { font-size: 1.15rem; letter-spacing: -.012em; line-height: 1.35; margin: 33px 0 10px; }
-    section:first-of-type h2 { margin-top: 0; }
-    p { margin: 0 0 14px; }
-    ul { margin: 8px 0 17px; padding-left: 24px; }
-    li { padding-left: 2px; margin: 4px 0; }
-    a { color: var(--accent); overflow-wrap: anywhere; text-underline-offset: 3px; }
-    footer { text-align: center; margin-top: 24px; font-size: .88rem; color: var(--muted); }
+    :root { color-scheme: light dark; --bg: #fbfaf7; --fg: #202127; --muted: #4b5260; --border: #dedbd4; --link: #964b00; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#101722; --panel:#192332; --text:#edf3fa; --muted:#b2c0d0; --line:#2c3d50; --accent:#91bdff; }
-      main { box-shadow: none; }
+      :root { --bg: #0a0d12; --fg: #f7f8fb; --muted: #a5adbb; --border: #313843; --link: #ffb36b; }
     }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 1rem/1.65 system-ui, sans-serif; }
+    nav, main { width: min(100% - 2.5rem, 46rem); margin: auto; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; padding: 1.25rem 0; border-bottom: 1px solid var(--border); }
+    nav a { padding: .25rem .4rem; }
+    main { padding-bottom: 3rem; }
+    article { margin-top: 1.5rem; scroll-margin-top: 6rem; overflow-wrap: anywhere; }
+    #uk { display: none; }
+    #uk:target { display: block; }
+    #uk:target + #en { display: none; }
+    h1 { margin-bottom: 0; font-size: clamp(1.65rem, 5vw, 2.35rem); line-height: 1.15; }
+    h2 { margin-top: 1.7rem; font-size: 1.2rem; line-height: 1.3; }
+    a { color: var(--link); text-underline-offset: .16em; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+    time { color: var(--muted); }
+    ul { padding-inline-start: 1.3rem; }
+    li + li { margin-top: .55rem; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="brand">Alpha Future Studio</div>
-      <h1>Privacy Policy</h1>
-      <p class="subtitle">Motion Monitor Beta</p>
-    </header>
-    <main>
-      <div class="meta"><strong>Application:</strong> Motion Monitor Beta<br><strong>Developer:</strong> Alpha Future Studio<br><strong>Effective date:</strong> November 2, 2026</div>
+  <nav aria-label="Language · Мова">
+    <a href="#en" lang="en">English</a>
+    <a href="#uk" lang="uk">Українська</a>
+  </nav>
+  <main>
+    <article id="uk" lang="uk">
+      <h1>Політика конфіденційності Trako</h1>
+      <p>Оновлено <time datetime="2026-11-16">16 листопада 2026 року</time></p>
+      <p>Ця політика стосується Android-застосунку <strong>Trako</strong> (com.truckwatch). За дані, отримані службою підтримки, відповідає розробник, зазначений у картці Trako в Google Play. Запитання щодо конфіденційності та запити щодо даних приймаємо за адресою <a href="mailto:alphafuture.studio@gmail.com">alphafuture.studio@gmail.com</a>.</p>
 
-      <section aria-labelledby="intro"><h2 id="intro">1. Introduction</h2>
-        <p>Alpha Future Studio ("we", "our", or "us") respects your privacy and is committed to protecting your information.</p>
-        <p>This Privacy Policy explains how Motion Monitor Beta ("the App") accesses, processes, stores, and handles information when you use our Android application.</p>
-      </section>
+      <h2>Камера й виявлення руху</h2>
+      <p>Після вашого дозволу Trako використовує камеру для попереднього перегляду й виявлення змін у вибраній області в денному та нічному режимах. Камера використовується, коли екран увімкнений і Trako відкрито. Кадри аналізуються в пам’яті пристрою. Trako не записує фото чи відео, не завантажує кадри й не передає зображення розробнику. Компенсація тремтіння спирається на аналіз зображення. Без дозволу на камеру спостереження недоступне. Дозвіл можна відкликати в налаштуваннях Android.</p>
 
-      <section aria-labelledby="camera"><h2 id="camera">2. Camera Access and Image Processing</h2>
-        <p>The App requires access to your device's camera to provide its core motion detection functionality.</p>
-        <ul>
-          <li>Camera images are processed locally on your device.</li>
-          <li>Camera frames are analyzed exclusively for motion detection.</li>
-          <li>Camera images and videos are not recorded or permanently stored by the App.</li>
-          <li>Camera data is not uploaded to our servers or shared with third parties.</li>
-          <li>The camera is used only while the App is actively performing motion detection with the screen enabled.</li>
-        </ul>
-        <p>You can revoke camera permission at any time through your device settings.</p>
-      </section>
+      <h2>Дані на пристрої</h2>
+      <ul>
+        <li><strong>Налаштування.</strong> Trako зберігає вибрану мову, параметри спостереження й сигналів та положення рамок, щоб відновити їх після перезапуску.</li>
+        <li><strong>Історія сигналів.</strong> Зберігаються до 100 останніх підтверджених тривог і нічних попереджень, для яких запустився тон. Запис містить локальний ідентифікатор, тип сигналу, режим і час. Нові події витісняють найстаріші. Історія не містить кадрів чи координат місця. Видалити записи можна в розділі <strong>Налаштування → Додатково → Історія сигналів</strong>.</li>
+        <li><strong>Пробний час і PRO.</strong> Trako зберігає витрачений час зі спільного ліміту 180 хвилин та останній підтверджений стан PRO. Час зараховується, коли камера дає придатні для спостереження кадри.</li>
+      </ul>
+      <p>Ці дані містяться в приватному сховищі застосунку Android. Історію й локальні дані доступу виключено з налаштованих правил резервного копіювання та перенесення Android. Налаштування й дані доступу зберігаються, доки залишаються дані застосунку. Очистити локальні дані можна в <strong>Налаштуваннях Android → Застосунки → Trako → Сховище</strong> або видаливши застосунок. Очищення даних Trako не скасовує покупку через Google Play.</p>
 
-      <section aria-labelledby="permissions"><h2 id="permissions">3. App Permissions and Notifications</h2>
-        <p>The current version of the App asks for two device permissions:</p>
-        <ul>
-          <li><strong>Camera:</strong> used to analyze motion in the monitoring area selected by the user. Camera frames are processed locally as described above.</li>
-          <li><strong>Notifications:</strong> used to display motion detection alerts and relevant App status notifications on your device.</li>
-        </ul>
-        <p>Notifications are generated and displayed locally by the App. Granting notification permission does not give us access to your messages, contacts, or other notifications, and the App does not send the content of these alerts to our servers.</p>
-        <p>You can manage or revoke either permission through Android settings. Without camera access, motion detection cannot operate. If notifications are disabled, you may not receive the App's notification alerts.</p>
-      </section>
+      <h2>Покупка та відновлення PRO</h2>
+      <p>Trako PRO — одноразова покупка через Google Play. Trako використовує Google Play Billing, щоб отримати ціну, перевірити чи відновити право на PRO та підтвердити покупку. Для цього застосунок отримує від Google Play відомості про статус покупки, ідентифікатор продукту й токен транзакції. Токен використовується для підтвердження покупки в Google Play. На пристрої Trako зберігає стан доступу. Власного платіжного сервера Trako немає.</p>
+      <p>Платіжні дані й дані облікового запису обробляє Google Play та залучені платіжні служби. Trako не отримує номер картки чи пароль облікового запису Google. Історію транзакцій, повернення коштів і платіжні дані можна переглядати й керувати ними за правилами Google Play. <a href="https://policies.google.com/privacy?hl=uk">Політика конфіденційності Google</a>.</p>
 
-      <section aria-labelledby="collection"><h2 id="collection">4. Information We Collect</h2>
-        <p>The App does not require user registration or account creation.</p>
-        <p>We do not directly collect personal information such as your name, email address, phone number, or precise location through the App.</p>
-        <p>The App does not collect or transmit camera images or videos to external servers.</p>
-        <p>If you contact us for support, we may receive information you voluntarily provide, including your email address and the contents of your message. This information is used to respond to your inquiry and provide support.</p>
-      </section>
+      <h2>Звернення до розробника</h2>
+      <p>Дія <strong>Зв’язатися з розробником</strong> передає вибраному поштовому застосунку чернетку з версією Trako, версією Android, виробником і моделлю пристрою. Ви можете змінити або видалити ці відомості. Чернетку надсилаєте ви. Якщо поштового застосунку немає, Trako показує адресу з можливістю скопіювати її.</p>
+      <p>Після надсилання ми отримуємо вашу адресу, зміст листа й усе, що ви додали до нього. Використовуємо це, щоб відповісти, розв’язати проблему та вести необхідне листування. Доступ до листування має розробник і поштовий провайдер, який забезпечує його доставку та зберігання. Поштові провайдери можуть обробляти повідомлення в інших країнах за своїми умовами. Зберігаємо листування, поки воно потрібне для опрацювання звернення, пов’язаних уточнень або виконання юридичних обов’язків. Після цього видаляємо дані або знеособлюємо їх. Надання цих даних добровільне.</p>
 
-      <section aria-labelledby="local"><h2 id="local">5. Local Data Storage</h2>
-        <p>The App may store certain preferences locally on your device, including:</p>
-        <ul>
-          <li>Motion detection sensitivity.</li>
-          <li>Selected monitoring area.</li>
-          <li>Alarm settings.</li>
-          <li>Other application preferences.</li>
-        </ul>
-        <p>These settings are used to provide and maintain the App's functionality.</p>
-        <p>We do not operate a remote database containing these settings.</p>
-      </section>
+      <h2>Дозволи, діагностика й безпека</h2>
+      <p>Застосунок використовує вібрацію й звук для сигналів. Стан мережі потрібен, щоб перевіряти доступність Google Play для покупки й відновлення PRO. Trako не запитує доступ до мікрофона, геолокації чи контактів. Застосунок не створює облікових записів Trako та не містить рекламних або аналітичних SDK. Ми не продаємо дані користувачів і не використовуємо їх для персоналізованої реклами.</p>
+      <p>Технічні повідомлення можуть з’являтися в локальному журналі Android. Якщо ви дозволили Android надсилати дані про використання й діагностику, Google Play може надавати розробнику звіти про збої та зависання через Android vitals. Використовуємо їх для підтримки стабільності Trako. Дані обробляють Google Play і поштові провайдери відповідно до своїх політик. Локальні дані Trako захищені засобами приватного сховища Android, а доступ до листування обмежено обліковим записом підтримки.</p>
 
-      <section aria-labelledby="thirdparty"><h2 id="thirdparty">6. Data Sharing and Third-Party Services</h2>
-        <p>The App does not sell personal information.</p>
-        <p>The App does not share camera images, recorded videos, or motion detection data with third parties.</p>
-        <p>The current version does not include third-party advertising or analytics SDKs.</p>
-        <p>The App is distributed through Google Play, which may independently process information in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.</p>
-      </section>
+      <h2>Права та запити щодо даних</h2>
+      <p>Коли це передбачено застосовним законодавством, ви можете попросити доступ до персональних даних підтримки, виправлення, видалення, обмеження обробки чи перенесення даних або заперечити проти обробки. Ви також можете звернутися до органу захисту даних у вашій юрисдикції. Напишіть на <a href="mailto:alphafuture.studio@gmail.com">alphafuture.studio@gmail.com</a>. Запити щодо даних облікового запису Google чи платежів у Google Play адресуйте Google. Для надання запитаної підтримки або доступу до покупки ми обробляємо необхідні для цього дані. Для розгляду повідомлень про помилки та захисту від зловживань можемо спиратися на законний інтерес у підтримці та безпеці застосунку. Якщо зберігання вимагає закон, застосовуємо відповідні вимоги.</p>
+    </article>
+    <article id="en" lang="en">
+      <h1>Trako Privacy Policy</h1>
+      <p>Updated <time datetime="2026-11-16">16 November 2026</time></p>
+      <p>This policy applies to the <strong>Trako</strong> Android app (com.truckwatch). The developer identified in Trako’s Google Play listing is responsible for data received by support. For privacy questions or requests about your data, email <a href="mailto:alphafuture.studio@gmail.com">alphafuture.studio@gmail.com</a>.</p>
 
-      <section aria-labelledby="security"><h2 id="security">7. Data Security</h2>
-        <p>We seek to protect user privacy by processing camera information locally and minimizing the information handled by the App.</p>
-        <p>The App does not transmit camera images to remote servers.</p>
-        <p>No method of electronic storage or processing can be guaranteed to be completely secure.</p>
-      </section>
+      <h2>Camera and motion detection</h2>
+      <p>With your permission, Trako uses the camera to preview and detect changes in a selected area in day and night modes. The camera is used while the screen is on and Trako is open. Frames are analyzed in device memory. Trako does not record photos or video, upload frames, or transmit images to the developer. Shake compensation uses image analysis. Monitoring requires camera permission, which you can revoke in Android settings.</p>
 
-      <section aria-labelledby="retention"><h2 id="retention">8. Data Retention and Deletion</h2>
-        <p>Camera frames are processed temporarily for motion detection and are not permanently retained by the App.</p>
-        <p>Application preferences may remain stored locally until they are cleared or the App is uninstalled, subject to Android's backup and restoration settings.</p>
-        <p>Support correspondence may be retained only as necessary to respond to requests and meet applicable legal obligations.</p>
-        <p>You may contact us to request deletion of information that you have voluntarily provided through support communications.</p>
-      </section>
+      <h2>Data stored on your device</h2>
+      <ul>
+        <li><strong>Preferences.</strong> Trako saves your language, monitoring and alert settings, and frame positions so they remain available after restarting the app.</li>
+        <li><strong>Alert history.</strong> Trako keeps up to 100 confirmed movement alarms and night warnings for which a tone started. Each entry contains a local identifier, alert type, monitoring mode, and time. New entries replace the oldest ones. The history contains no camera frames or location coordinates. To delete it, go to <strong>Settings → Additional → Alert history</strong>.</li>
+        <li><strong>Trial time and PRO.</strong> Trako saves the time used from the shared 180-minute allowance and the last confirmed PRO access status. Trial time counts when the camera supplies usable monitoring frames.</li>
+      </ul>
+      <p>These records are kept in private Android app storage. The configured Android backup and transfer rules exclude alert history and local access records. Preferences and access records are kept for as long as the app data remains on your device. You can clear local data in <strong>Android settings → Apps → Trako → Storage</strong> or by uninstalling Trako. Clearing Trako’s data does not cancel a Google Play purchase.</p>
 
-      <section aria-labelledby="children"><h2 id="children">9. Children's Privacy</h2>
-        <p>The App is not designed for children under the age of 13.</p>
-        <p>We do not knowingly collect personal information from children.</p>
-      </section>
+      <h2>Buying and restoring PRO</h2>
+      <p>Trako PRO is a one-time Google Play purchase. Trako uses Google Play Billing to obtain pricing, check or restore PRO access, and acknowledge purchases. The app receives the purchase status, product identifier, and transaction token from Google Play. The token is used to acknowledge the purchase with Google Play. Trako stores the access status on the device. Trako does not operate a payment server.</p>
+      <p>Google Play and its payment providers handle payment and account details. Trako does not receive card numbers or Google Account passwords. You can view and manage transactions, refunds, and payment information under Google Play’s policies. <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
 
-      <section aria-labelledby="changes"><h2 id="changes">10. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy to reflect changes in the App, its features, data handling practices, or applicable legal requirements.</p>
-        <p>Any updates will be published on this page with a revised effective date.</p>
-      </section>
+      <h2>Contacting the developer</h2>
+      <p><strong>Contact developer</strong> hands a draft to your chosen email app with the Trako version, Android version, device manufacturer, and model. You can edit or remove those details. You choose whether to send the draft. If no email app is available, Trako shows the address so you can copy it.</p>
+      <p>When you send an email, we receive your address, your message, and anything you include. We use this information to respond, resolve the issue, and handle follow-up. The developer and email provider have access as needed to handle and store the correspondence. Email providers may process messages in other countries under their terms. We retain correspondence while needed to handle the request, related follow-up, or legal obligations. We then delete or de-identify the data. Providing this information is optional.</p>
 
-      <section aria-labelledby="contact"><h2 id="contact">11. Contact Us</h2>
-        <p>If you have questions about this Privacy Policy or our data handling practices, please contact:</p>
-        <p><strong>Developer:</strong> Alpha Future Studio<br>
-        <strong>Email:</strong> <a href="mailto:alphafuture.studio@gmail.com">alphafuture.studio@gmail.com</a></p>
-      </section>
-    </main>
-    <footer>Last updated: November 2, 2026 · © Alpha Future Studio</footer>
-  </div>
+      <h2>Permissions, diagnostics, and security</h2>
+      <p>Trako uses vibration and audio for alerts. It checks connection availability for Google Play purchases and restoration. Trako does not request microphone, location, or contacts access. Trako has no app accounts or advertising or analytics SDKs. We do not sell user data or use it for personalized advertising.</p>
+      <p>Technical messages may appear in the local Android log. If you opt in to Android usage and diagnostics sharing, Google Play may provide crash and app-not-responding reports to the developer via Android vitals. We use those reports to maintain app reliability. Google Play and email providers process data under their own policies. Trako uses Android private app storage for its local data. Access to support correspondence is restricted to the support account.</p>
+
+      <h2>Privacy rights and data requests</h2>
+      <p>Where applicable law gives you these rights, you may request access to, correction or deletion of personal data held by support, restriction, or portability, or object to its processing. You may also complain to the relevant data protection authority. Email <a href="mailto:alphafuture.studio@gmail.com">alphafuture.studio@gmail.com</a>. Contact Google about Google Account or Google Play payment data. We process data needed to provide requested support or purchase access. We may rely on our legitimate interest in maintaining app reliability and security when handling bug reports and preventing misuse. We retain data as required by applicable law.</p>
+    </article>
+  </main>
 </body>
 </html>
